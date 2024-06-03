@@ -29,13 +29,18 @@ nav,
 #credits {
   background-color: black;
   height: 60px;
-  /* Your code goes here */
+  width: 100%;
+  height: 50px;
 }
 
 .container {
-  width: 500px;
-  /* Your code goes here */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 8px;
 }
+
 
 .button {
   background-color: #ffcc00;
